@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My GBA Game</title>
+</head>
+<body>
+  <h1>Play My Game</h1>
+  <div id="emulator"></div>
+
+  <script src="loader.js"></script>
+  <script>
+    EJS_player = '#emulator';
+    EJS_gameUrl = 'game.gba'; // your ROM file
+    EJS_core = 'gba';
+    EJS_pathtodata = 'data/';
+    EJS_saveState = true; // Enables auto-save/load
+  </script>
+</body>
+</html>
